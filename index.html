@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="icon" href="images/icono.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/hamburguesa.js"></script>
+    <title>YoGoBoom</title>
+</head>
+<body>
+    <nav class="navegacion-pagina">
+        <a href="index.html" class="logo-link">
+            <img src="images/logo-menu.webp" alt="YoGoBoom - Helados de Yogurt" class="logo-menu">
+        </a>
+        <button class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="menu" id="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/nuestros_sabores.html">Nuestros Sabores</a></li>
+            <li><a href="pages/tienda_yogoboom.html">Tiendas</a></li>
+            <li><a href="pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+            <li class="menu-desplegable">
+                <a href="servicios/eventos.html">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="servicios/eventos.html">Eventos</a></li>
+                    <li><a href="servicios/eventos.html">Sabores de Helados</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-contenido">
+            <h1>Descubre la Frescura de Nuestros Helados</h1>
+            <p>Elaborados con ingredientes 100% naturales, sin conservantes y con el auténtico sabor que solo YoGoBoom puede ofrecerte.<br>¡Una explosión de sabor en cada bocado!</p>
+        </div>
+    </section>
+
+    <section class="sabores">
+        <h2>Nuestros Sabores Clásicos</h2>
+        <div class="grid-sabores">
+            <div class="sabor">
+                <div class="sabor-img-container">
+                    <img src="images/vainilla.webp" alt="Cono de Vainilla">
+                </div>
+                <div class="sabor-content">
+                    <h3>Vainilla</h3>
+                    <p>Clásico cremoso con esencia de vainilla natural</p>
+                </div>
+            </div>
+
+            <div class="sabor">
+                <div class="sabor-img-container">
+                    <img src="images/chocolate.webp" alt="Cono de Chocolate">
+                </div>
+                <div class="sabor-content">
+                    <h3>Chocolate</h3>
+                    <p>Delicioso cacao en su versión más cremosa</p>
+                </div>
+            </div>
+            
+            <div class="sabor">
+                <div class="sabor-img-container">
+                    <img src="images/fresa.webp" alt="Helado de Fresa">
+                </div>
+                <div class="sabor-content">
+                    <h3>Fresa</h3>
+                    <p>Frescura frutal con trozos de fresa natural</p>
+                </div>
+            </div>
+        </div>
+        <a href="pages/nuestros_sabores.html" class="btn">Descubre más sabores</a>
+    </section>
+
+    <section class="ventajas">
+        <h2>¿Por qué elegir YoGoBoom?</h2>
+        <div class="caracteristicas">
+            <div class="caracteristica">
+                <h3>Ingredientes</h3>
+                <p>Leche fresca de proveedores locales</p>
+            </div>
+            
+            <div class="caracteristica">
+                <h3>Calidad garantizada</h3>
+                <p>Proceso de producción con los más altos estándares</p>
+            </div>
+            
+            <div class="caracteristica">
+                <h3>Tradición heladera</h3>
+                <p>Recetas perfeccionadas por más de 20 años</p>
+            </div>
+            
+            <div class="caracteristica">
+                <h3>Variedad de sabores</h3>
+                <p>Más de 15 opciones para todos los gustos</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="promocion">
+    <div class="contenedor-promo">
+        <h2>¡2x1 los miércoles!</h2>
+        <p>Arma tu cono o vaso con 3 toppings por el precio de 1</p>
+        <a href="pages/tienda_yogoboom.html" class="btn-promo">Encuentra tu tienda más cercana</a>
+    </div>
+    </section>
+
+    <section class="proceso">
+        <h2>Nuestro Proceso Artesanal</h2>
+        <div class="pasos">
+            <div class="paso">
+                <div class="paso-numero">1</div>
+                <h3>Selección</h3>
+                <p>Seleccionamos solo los mejores ingredientes locales</p>
+            </div>
+            <div class="paso">
+                <div class="paso-numero">2</div>
+                <h3>Mezcla Perfecta</h3>
+                <p>Combinamos en las proporciones exactas</p>
+            </div>
+            <div class="paso">
+                <div class="paso-numero">3</div>
+                <h3>Maduración</h3>
+                <p>Dejamos reposar para intensificar los sabores</p>
+            </div>
+            <div class="paso">
+                <div class="paso-numero">4</div>
+                <h3>Servicio Fresco</h3>
+                <p>Preparamos al momento para máxima frescura</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ubicacion">
+        <h2>Visítanos en Ciudad Valles</h2>
+        <div class="mapa-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.215370381493!2d-98.985539924033!3d20.68438198087957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3579f5b1d1a9d%3A0x5e2a5e7f5e7f5e7f!2sCiudad%20Valles%2C%20San%20Luis%20Potos%C3%AD!5e0!3m2!1ses!2smx!4v1620000000000!5m2!1ses!2smx" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="info-ubicacion">
+            <p><i class="fas fa-map-marker-alt"></i> Dirección exacta: Av. Principal #123, Col. Centro, Ciudad Valles, S.L.P.</p>
+            <p><i class="fas fa-car"></i> Amplio estacionamiento disponible</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contacto">
+                <h3>Contáctanos</h3>
+                <p>
+                    <i class="fas fa-envelope"></i> 
+                    <a href="mailto:manuelnava240678@gmail.com?subject=Consulta%20YoGoBoom&body=Hola,%20me%20gustaría%20saber%20más%20sobre..." class="contacto-link">
+                        YoGoBoom@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i> 
+                    <a href="tel:+524811522033" class="contacto-link">
+                        Tel: 481 152 2033
+                    </a>
+                </p>
+                <p><i class="fas fa-map-marker-alt"></i> Ciudad Valles, San Luis Potosí</p>
+                <p><i class="fas fa-clock"></i> Horario: 11:00 AM - 9:00 PM</p>
+            </div>
+            
+            <div class="redes">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/524811522033" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">
+            © 2025 YoGoBoom - Ciudad Valles, S.L.P. | 
+            <a href="#">Aviso de Privacidad</a> | 
+            <a href="#">Términos y Condiciones</a>
+        </p>
+    </footer>
+</body>
+</html>

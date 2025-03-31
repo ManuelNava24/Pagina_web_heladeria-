@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="icon" href="../images/icono.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="../js/hamburguesa.js"></script>
+    <title>YoGoBoom | Nuestros Sabores</title>
+</head>
+<body>
+    <nav class="navegacion-pagina">
+        <a href="../index.html" class="logo-link">
+            <img src="../images/logo-menu.webp" alt="YoGoBoom - Helados de Yogurt" class="logo-menu">
+        </a>
+        <button class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="menu" id="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="nuestros_sabores.html">Nuestros Sabores</a></li>
+            <li><a href="../pages/tienda_yogoboom.html">Tiendas</a></li>
+            <li><a href="../pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+            <li class="menu-desplegable">
+                <a href="../servicios/eventos.html">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="../servicios/eventos.html">Eventos</a></li>
+                    <li><a href="../servicios/eventos.html">Sabores de Helados</a></li>
+                </ul>
+            </li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="categorias-sabores">
+        <div class="categoria-titulo">
+            <h2>Sabores Clásicos</h2>
+        </div>
+        
+        <div class="grid-sabores-detalle">
+            <div class="sabor-card">
+                <div class="sabor-imagen">
+                    <img src="../images/vainilla.webp" alt="Vainilla Premium">
+                </div>
+                <div class="sabor-info">
+                    <h3>Vainilla Premium</h3>
+                    <p class="sabor-descripcion">Nuestra vainilla Madagascar con notas intensas y aroma inconfundible.</p>
+                    <p class="sabor-precio">$45 (Cono individual)</p>
+                </div>
+            </div>
+            
+            <div class="sabor-card">
+                <div class="sabor-imagen">
+                    <img src="../images/chocolate.webp" alt="Chocolate Artesanal">
+                </div>
+                <div class="sabor-info">
+                    <h3>Chocolate Artesanal</h3>
+                    <p class="sabor-descripcion">Elaborado con cacao 70% de Tabasco, para los amantes del chocolate intenso.</p>
+                    <p class="sabor-precio">$50 (Cono individual)</p>
+                </div>
+            </div>
+            
+            <div class="sabor-card">
+                <div class="sabor-imagen">
+                    <img src="../images/fresa.webp" alt="Fresa Fresca">
+                </div>
+                <div class="sabor-info">
+                    <h3>Fresa Fresca</h3>
+                    <p class="sabor-descripcion">Fresas naturales de Zamora mezcladas con nuestro helado cremoso.</p>
+                    <p class="sabor-precio">$48 (Cono individual)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categorias-sabores" style="background-color: #fff;">
+        <div class="categoria-titulo">
+            <h2>Sabores Especiales</h2>
+        </div>
+        
+        <div class="grid-sabores-detalle">
+            <!-- Sabor 4 -->
+            <div class="sabor-card">
+                <div class="sabor-imagen">
+                    <img src="../images/mango-chamoy.webp" alt="Mango Chamoy">
+                </div>
+                <div class="sabor-info">
+                    <h3>Mango Chamoy</h3>
+                    <p class="sabor-descripcion">La combinación perfecta entre lo dulce y lo picante, un sabor único.</p>
+                    <p class="sabor-precio">$55 (Cono individual)</p>
+                </div>
+            </div>
+            
+            <div class="sabor-card">
+                <div class="sabor-imagen">
+                    <img src="../images/queso-mora.webp" alt="Queso con Mora">
+                </div>
+                <div class="sabor-info">
+                    <h3>Queso con Mora</h3>
+                    <p class="sabor-descripcion">La combinación perfecta de queso crema y moras azules silvestres.</p>
+                    <p class="sabor-precio">$52 (Cono individual)</p>
+                </div>
+            </div>
+            
+            <div class="sabor-card">
+                <div class="sabor-imagen">
+                    <img src="../images/cafe-avellana.webp" alt="Café Avellana">
+                </div>
+                <div class="sabor-info">
+                    <h3>Café Avellana</h3>
+                    <p class="sabor-descripcion">Café orgánico de Chiapas con trozos de avellana tostada.</p>
+                    <p class="sabor-precio">$50 (Cono individual)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-heladeria">
+        <div class="info-contenido">
+            <h2>Nuestra Filosofía Heladera</h2>
+            <p>En YoGoBoom seleccionamos cuidadosamente cada ingrediente para ofrecerte una experiencia única. Nuestros helados son 100% naturales, sin conservantes ni colorantes artificiales. Utilizamos frutas de temporada y productos locales para apoyar a nuestra comunidad y garantizar la máxima frescura.</p>
+            <p>Cada sabor es creado artesanalmente en pequeñas cantidades para mantener los más altos estándares de calidad.</p>
+            <a href="../servicios/eventos.html" class="btn-sabores">Encuentra tu helado favorito</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contacto">
+                <h3>Contáctanos</h3>
+                <p>
+                    <i class="fas fa-envelope"></i> 
+                    <a href="mailto:manuelnava240678@gmail.com?subject=Consulta%20YoGoBoom&body=Hola,%20me%20gustaría%20saber%20más%20sobre..." class="contacto-link">
+                        YoGoBoom@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i> 
+                    <a href="tel:+524811522033" class="contacto-link">
+                        Tel: 481 152 2033
+                    </a>
+                </p>
+                <p><i class="fas fa-map-marker-alt"></i> Ciudad Valles, San Luis Potosí</p>
+                <p><i class="fas fa-clock"></i> Horario: 11:00 AM - 9:00 PM</p>
+            </div>
+            
+            <div class="redes">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/524811522033" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">
+            © 2025 YoGoBoom - Ciudad Valles, S.L.P. | 
+            <a href="#">Aviso de Privacidad</a> | 
+            <a href="#">Términos y Condiciones</a>
+        </p>
+    </footer>
+</body>
+</html>

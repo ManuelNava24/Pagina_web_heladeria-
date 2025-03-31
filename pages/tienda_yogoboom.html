@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="icon" href="../images/icono.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="../js/hamburguesa.js"></script>
+    <title>YoGoBoom | Tiendas</title>
+</head>
+<body>
+    <nav class="navegacion-pagina">
+        <a href="../index.html" class="logo-link">
+            <img src="../images/logo-menu.webp" alt="YoGoBoom - Helados de Yogurt" class="logo-menu">
+        </a>
+        <button class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="menu" id="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/nuestros_sabores.html">Nuestros Sabores</a></li>
+            <li><a href="tienda_yogoboom.html">Tiendas</a></li>
+            <li><a href="../pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+            <li class="menu-desplegable">
+                <a href="../servicios/eventos.html">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="../servicios/eventos.html">Eventos</a></li>
+                    <li><a href="../servicios/eventos.html">Sabores de Helados</a></li>
+                </ul>
+            </li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="tiendas-container">
+        <div class="grid-tiendas">
+            <div class="tienda-card">
+                <div class="tienda-imagen">
+                    <img src="../images/polanco.webp" alt="YoGoBoom Polanco">
+                </div>
+                <div class="tienda-info">
+                    <h3>YoGoBoom Polanco</h3>
+                    <p class="tienda-direccion">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Av. Presidente Masaryk 156, Polanco, CDMX
+                    </p>
+                    <p class="tienda-horario">
+                        <i class="fas fa-clock"></i>
+                        Lunes a Domingo: 11:00 - 22:00
+                    </p>
+                    <p class="tienda-contacto">
+                        <i class="fas fa-phone"></i>
+                        55 1234 5678
+                    </p>
+                </div>
+            </div>
+            
+            <div class="tienda-card">
+                <div class="tienda-imagen">
+                    <img src="../images/condesa.webp" alt="YoGoBoom Condesa">
+                </div>
+                <div class="tienda-info">
+                    <h3>YoGoBoom Condesa</h3>
+                    <p class="tienda-direccion">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Av. Michoacán 78, Condesa, CDMX
+                    </p>
+                    <p class="tienda-horario">
+                        <i class="fas fa-clock"></i>
+                        Lunes a Domingo: 10:00 - 23:00
+                    </p>
+                    <p class="tienda-contacto">
+                        <i class="fas fa-phone"></i>
+                        55 8765 4321
+                    </p>
+                </div>
+            </div>
+            
+            <div class="tienda-card">
+                <div class="tienda-imagen">
+                    <img src="../images/guadalajara.webp" alt="YoGoBoom Guadalajara">
+                </div>
+                <div class="tienda-info">
+                    <h3>YoGoBoom Guadalajara</h3>
+                    <p class="tienda-direccion">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Av. Chapultepec 120, Col. Americana, GDL
+                    </p>
+                    <p class="tienda-horario">
+                        <i class="fas fa-clock"></i>
+                        Lunes a Viernes: 12:00 - 22:00<br>
+                        Sábado y Domingo: 11:00 - 23:00
+                    </p>
+                    <p class="tienda-contacto">
+                        <i class="fas fa-phone"></i>
+                        33 4567 8910
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ubicacion">
+        <h2>Visítanos también en Ciudad Valles</h2>
+        <div class="mapa-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.215370381493!2d-98.985539924033!3d20.68438198087957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3579f5b1d1a9d%3A0x5e2a5e7f5e7f5e7f!2sCiudad%20Valles%2C%20San%20Luis%20Potos%C3%AD!5e0!3m2!1ses!2smx!4v1620000000000!5m2!1ses!2smx" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="info-ubicacion">
+            <p><i class="fas fa-map-marker-alt"></i> Dirección exacta: Av. Principal #123, Col. Centro, Ciudad Valles, S.L.P.</p>
+            <p><i class="fas fa-car"></i> Amplio estacionamiento disponible</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contacto">
+                <h3>Contáctanos</h3>
+                <p>
+                    <i class="fas fa-envelope"></i> 
+                    <a href="mailto:manuelnava240678@gmail.com?subject=Consulta%20YoGoBoom&body=Hola,%20me%20gustaría%20saber%20más%20sobre..." class="contacto-link">
+                        YoGoBoom@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <i class="fas fa-phone"></i> 
+                    <a href="tel:+524811522033" class="contacto-link">
+                        Tel: 481 152 2033
+                    </a>
+                </p>
+                <p><i class="fas fa-map-marker-alt"></i> Ciudad Valles, San Luis Potosí</p>
+                <p><i class="fas fa-clock"></i> Horario: 11:00 AM - 9:00 PM</p>
+            </div>
+            
+            <div class="redes">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/524811522033" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">
+            © 2025 YoGoBoom - Ciudad Valles, S.L.P. | 
+            <a href="#">Aviso de Privacidad</a> | 
+            <a href="#">Términos y Condiciones</a>
+        </p>
+    </footer>
+</body>
+</html>
